@@ -4,16 +4,25 @@ ClickMint is a blockchain-based solution that creates unique NFTs representing o
 
 ## Features
 - Create new ad campaign NFTs
-- Update campaign metrics
+- Update campaign metrics with validation
 - Transfer campaign ownership
 - View campaign analytics
+- Campaign status tracking
+- Event logging for important actions
 
-## Usage
-The contract exposes functions to:
-1. Mint new campaign NFTs with initial metadata
-2. Update campaign metrics (impressions, clicks etc)
-3. Transfer campaign ownership
-4. Query campaign analytics
+## Smart Contract Functions
+1. `create-campaign`: Mint new campaign NFTs with initial metadata
+2. `update-metrics`: Update campaign metrics with validation checks
+3. `transfer-campaign`: Transfer campaign ownership
+4. `get-campaign`: Query campaign details
+5. `get-campaign-metrics`: Get campaign performance metrics
+6. `is-campaign-active`: Check if a campaign is still active
 
 ## Getting Started
 [Installation and setup instructions...]
+
+## Event Tracking
+The contract emits events for important actions:
+- Campaign creation
+- Campaign transfers
+- Metric updates
